@@ -1,0 +1,111 @@
+<div class="container">
+	<?php include 'tpl/breadcrumbs.php'?>
+	<div class="row">
+		<h1 class="fw-bold my-4">Caurules no plastmasas</h1>
+	</div>
+
+	<div class="row">
+		<div class="col-12 col-md-9 order-2 order-md-1">
+			<div class="row">
+				<div class="col-6 col-md-3 itemGrid productItem p-4">
+					<a href="/?page=product" class="text-decoration-none text-body">
+						<img src="assets/img/product_pipe.png">
+						<p>APS - caurule DM-200, L500</p>
+						<h5 class="my-4 fw-bold">126.00 €</h5>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-4">
+					<a href="/?page=product" class="text-decoration-none text-body">
+						<img src="assets/img/product_pipe.png">
+						<p>APS - caurule DM 200, L 500</p>
+						<h5 class="my-4 fw-bold">126.00 €</h5>
+					</a>        </div>
+					<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-4">
+						<a href="/?page=product" class="text-decoration-none text-body">
+							<img src="assets/img/product_pipe.png">
+							<p>APS - caurule DM 200, L 500</p>
+							<h5 class="my-4 fw-bold">126.00 €</h5>
+						</a>
+					</div>
+					<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-4">
+						<a href="/?page=product" class="text-decoration-none text-body">
+							<img src="assets/img/product_pipe.png">
+							<p>APS - caurule DM 200, L 500</p>
+							<h5 class="my-4 fw-bold">126.00 €</h5>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-3 order-1 order-md-2">
+				<nav>
+					<button class="navbar-toggler bg-light px-4 py-2 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#toggleFilters">
+						<svg class="me-2" width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g id="MOB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+								<g id="Baltic-Invest---MOB-04" transform="translate(-674.000000, -1053.000000)" stroke="#282828" stroke-width="2">
+									<polygon id="Path-8" points="675 1054 696 1054 688.268182 1065.33047 688.268182 1073.63948 682.827273 1076 682.827273 1066.65236"></polygon>
+								</g>
+							</g>
+						</svg>
+						<span class="fs-6 fw-bold">Filtri</span>
+					</button>
+					<ul class="list-unstyled ps-0 collapse mt-2" id="toggleFilters">
+						<li class="mb-1">
+							<button class="btn btn-toggle rounded collapsed text-start" data-bs-toggle="collapse" data-bs-target="#available-collapse">
+								Produkts pieejams
+							</button>
+							<div class="collapse show ms-4 my-4" id="available-collapse">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="1">
+									<label class="form-check-label">
+										Noliktavā
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="0">
+									<label class="form-check-label">
+										Pasūtot
+									</label>
+								</div>
+							</div>
+						</li>
+						<li class="mb-1">
+							<button class="btn btn-toggle rounded collapsed text-start" data-bs-toggle="collapse" data-bs-target="#attribute-collapse">
+								Īpašība #2
+							</button>
+							<div class="collapse ms-4 my-4" id="attribute-collapse">
+								<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="1">
+										<label class="form-check-label">
+											100mm
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="0">
+										<label class="form-check-label">
+											200mmm
+										</label>
+									</div>
+								</ul>
+							</div>
+						</li>
+						<hr class="d-md-none d-lg-none d-xl-none d-xxl-none">
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row mt-4">
+			<div class=" mt-4 col-12 d-flex align-items-center justify-content-center">
+				<nav>
+					<ul class="pagination">
+						<li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+						<li class="page-item active"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
