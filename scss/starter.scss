@@ -91,3 +91,6 @@ body {
 bi {
   fill: $red;
 }
+a.nav-link:hover {
+  color: $red !important;
+}
