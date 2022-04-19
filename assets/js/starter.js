@@ -117,6 +117,21 @@ window.addEventListener('load', function(event) {
 		    console.log( "Server response: " + data );
 		});
 	});
+
+	$( ".toggleWishlist" ).click(function(e) {
+		var target = $(e.target);
+		var productId = target.attr('data-productId');
+		console.log(target);
+		console.log(productId);
+		console.log($(target.parent().children()[0]));
+		
+		$.post( "/profile/wishlist/update", { productId: productId, action: 'toggle'})
+		  .done(function( data ) {
+		   console.log( "Server response: " + data );
+		    $(target.children()[0]).toggleClass('desired');
+		});
+	});
+
 	
 });
 

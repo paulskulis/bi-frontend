@@ -17,8 +17,9 @@
 						<button type="button text-secondary" class="btn btn-decrement btn-outline-secondary px-3 py-2 bg-light text-body border-0">-</button>
 						<button type="button" class="btn counter btn-outline-secondary disabled px-4 py-2 bg-light text-body border-0">1</button>
 						<button type="button" class="btn btn-increment btn-outline-secondary px-3 py-2 bg-light text-body border-0">+</button>
-					</div>
-					<button type="button" class="btn btn-warning text-body addToCart" data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"> <img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
+						<button type="button" class="btn btn-primary addToCart" data-productid="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
+						<button type="button" class="btn btn-light text-body toggleWishlist" data-productid="123"><div class="iconContainer desired" style="height:24px;width:24px"></div></button>
+					</div>				
 				</div>
 			</div>
 

@@ -46,7 +46,10 @@
 				</div>
 
 				<div class="col-auto flex-grow-1">
-					<button type="button" class="btn btn-warning py-2 text-body border-0 fw-bold w-100 mt-2 addToCart" data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"> <img src="assets/img/cart.svg" class="pe-4">Pievienot grozam</button>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-warning py-2 text-body border-0 fw-bold w-100 addToCart" data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"> <img src="assets/img/cart.svg" class="pe-4">Pievienot grozam</button>
+						<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer" style="height:24px;width:24px"></div></button>
+					</div>
 				</div>
 			</div>
 
