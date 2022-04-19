@@ -170,7 +170,8 @@ button {
 .productList form {
   display: inline;
 }
-.checkout img {
+.checkout img,
+.orderHistory img {
   max-width: 100%;
 }
 @media screen and (max-width: 768px) {

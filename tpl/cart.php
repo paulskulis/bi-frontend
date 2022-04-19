@@ -30,7 +30,7 @@
 				<input type="hidden" name="action" value="checkout">
 				<input type="hidden" id="product-123" name="products[123]" value="1">
 				<input type="hidden" id="product-123" name="products[124]" value="1">
-				<button type="submit" class="btn btn-primary btn-lg acceptcookies mt-2 w-100 fw-bold fs-6">
+				<button type="submit" class="btn btn-primary btn-lg mt-2 w-100 fw-bold fs-6">
 					Noformēt pasūtījumu
 				</button>
 			</form>
