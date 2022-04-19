@@ -11,6 +11,7 @@
 					<a href="/?page=product" class="text-decoration-none text-body">
 						<img src="assets/img/product_pipe.png">
 						<p>APS - caurule DM-200, L500</p>
+						<p><small>Produkta kods: ABC123456</small></p>
 						<h5 class="my-4 fw-bold">126.00 €</h5>
 					</a>
 					<div class="btn-group" role="group">
