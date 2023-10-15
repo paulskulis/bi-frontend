@@ -15,23 +15,26 @@
     <!-- Unescaped URL:       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css"> -->
     <?php 
     if (!isset($_COOKIE['acceptCookies'])) { 
+      //If no cookies set, load Cookie Alert vendor css
       print("<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css\">");
     }
     elseif(isset($_COOKIE['acceptCookies']) && $_COOKIE['acceptCookies'] == "true") {
-          //Include analytics and other stuff here
+      //Include analytics and other stuff here
     }
     ?>
 
     <title>Baltic Invest</title>
   </head>
   <body>
+    <!-- Facebook SDK, placement as per vendor documentation -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="xVH0Jnfq"></script>
+    
+      <?php 
+      if (!isset($_COOKIE['acceptCookies'])) {
+        include('tpl/cookiealert.php'); //Save some bytes of unneeded DOM
+      }
 
-
-    <?php 
-    if (!isset($_COOKIE['acceptCookies'])) {
-      include('tpl/cookiealert.php'); //Save some bytes of unneeded DOM
-    }
-
-    include('tpl/header.php');
-    ?>
-    <div id="contentContainer">
+      include('tpl/header.php');
+      ?>
+      <div id="contentContainer">
