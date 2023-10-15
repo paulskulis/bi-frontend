@@ -131,7 +131,7 @@
 
 	<div class="row mt-5">
 		<div class="col-md-6">
-			<h5 class="fw-bold text-uppercase mb-4">Kopējais raksturojums</h5>
+			<h5 class="fw-bold text-uppercase mb-4">Apraksts</h5>
 			<p class="mt-4 text-secondary">SIA LLP ir radījis produktu APS (Abrazīvā Cauruļu Sistēma).</p>
 			<p class="mt-4 text-secondary">APS sistēma ir vienkārši un ērti uzstādāma. APS caurules kalpos desmit reizes ilgāk par metāla graudu caurplūdes caurulēm.</p>
 			<p class="mt-4 text-secondary">APS sauklis ir “Gara mūža caurules”, jo pēc laika, kad plastmasa ir izdilusi, jānomaina ir tikai pati plastmasa, nevis viss komplekts.</p>
@@ -166,6 +166,8 @@
 					<td>9 t/h</td>
 				</tr>
 			</table>
+			<h5 class="fw-bold text-uppercase mb-4 mt-4">Video</h5>
+			<iframe width="100%" height="360" src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 	</div>
 
