@@ -3,9 +3,9 @@
 
     <div class="d-flex flex-row justify-content-between d-md-none d-lg-none d-xl-none d-xxl-none w-100">
 
-      <button class="navbar-toggler mb-2 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#productNav">
+      <button class="navbar-toggler mb-2 border-0 py-3" id="mmenu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#productNav">
         <span class="dropdown-toggle"></span>
-        <a class="navbar-brand fw-bolder" href="#">Preces</a>
+        <a class="navbar-brand fw-bolder" href="#">Visas preces</a>
       </button>
 
       <div class="d-md-none d-lg-none d-xl-none d-xxl-none">
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse text-uppercase " id="productNav">
           <ul class="navbar-nav w-100 justify-content-between">
             <li class="nav-item">
-              <a class="btn btn-dark fw-bolder" data-bs-toggle="collapse"
+              <a class="btn btn-warning fw-bolder" data-bs-toggle="collapse"
                 href="#productList1"><span class="dropdown-toggle"></span> Visas preces</a>
             </li>
             <li class="nav-item">

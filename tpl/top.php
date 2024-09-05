@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
     <link rel="stylesheet" href="assets/css/site.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -1,0 +1,98 @@
+.alert:not(.custom-modal) {
+	display: none;
+}
+
+.custom-modal {
+	position: fixed;
+	left: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	top: 0;
+	z-index: 99999;
+	transform: translateX(-50%);
+  }
+  
+
+.custom-modal.remove-from-cart {
+	display: none;
+}
+
+.custom-modal:not(.animated) {
+	transform: translateY(-100%);
+}
+
+.custom-modal.account-select {
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+}
+
+
+.custom-modal.account-select .custom-modal-title {
+	font-size: 24px;
+}
+
+.custom-modal .custom-modal-title {
+	background: #FCD438;
+	color: #333;
+	padding: 5px 15px;
+}
+
+.custom-modal .custom-modal-content {
+	font-size: 22px;
+	padding: 15px 30px;
+	background: #FFFFFF;
+	color: #333;
+	box-shadow: 3px 3px 10px 0px #4f4e4e;
+}
+
+.custom-modal .custom-modal-content .shopping-cart-table tr td:not(:last-child) {
+	padding-right: 10px;
+}
+
+.custom-modal .custom-modal-content .custom-modal-buttons {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.custom-modal .custom-modal-content .custom-modal-buttons button {
+	margin-left: 1em;
+}
+
+.custom-modal .font-size-inherit {
+	font-size: inherit;
+}
+
+.custom-modal .font-color-inherit {
+	color: inherit;
+}
+
+.list-group li a, h5 a {
+	text-decoration: none;
+	color:inherit;
+}
+
+
+.account-row {
+	padding: 10px;
+	background: #fefefe;
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.account-row .account-title {
+	white-space: nowrap;
+	padding-right: 25px;
+}
+.account-row .fa {
+	float: right;
+}
+.account-row:after {
+	content: " ";
+	clear: both;
+}
+
+input.cart-amount {
+	min-width:35px;
+	max-width: 75px;
+}

@@ -50,7 +50,7 @@
       method="post">
       <div class="input-group">
         <input minlength="2" type="search" class="headerSearch form-control form-control-lg border-end-0 rounded-start"
-          name="query" placeholder="Meklēt...">
+          name="query" placeholder="Ievadiet atslēgvārdu">
         <button class="btn btn-outline-secondary border-start-0 bg-white" type="submit" id="button-addon2">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search"
             viewBox="0 0 16 16">

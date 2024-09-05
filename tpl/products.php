@@ -7,52 +7,84 @@
 	<div class="row">
 		<div class="col-12 col-md-9 order-2 order-md-1">
 			<div class="row">
-				<div class="col-6 col-md-3 itemGrid productItem p-4">
-					<a href="/?page=product" class="text-decoration-none text-body">
-						<img src="assets/img/product_pipe.png">
-						<p class="fw-bold">APS - caurule DM-200, L500</p>
-						<p><small>Produkta kods: ABC123456</small></p>
-						<h5 class="my-4 fw-bold">126.00 €</h5>					
-					</a>
-					<div class="btn-group" role="group">
-						<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
-						<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer" style="height:24px;width:24px"></div></button>
+				<div class="col-6 col-md-3 itemGrid productItem p-2">
+					<div class="p-2 border rounded">
+						<a href="/?page=product" class="text-decoration-none text-body">
+							<img src="assets/img/product_pipe.png">
+							<p class="fw-bold">APS - caurule DM-200, L500</p>
+							<p>
+								<small>Produkta kods: ABC123456</small><br />
+								<small class="fw-bold">Pieejamība: 0</small>
+							</p>
+							<h5 class="my-4 fw-bold">126.00 €</h5>
+						</a>
+						<div class="btn-group" role="group" style="width:100%;">
+							<button type="button text-secondary" class="btn btn-decrement btn-outline-secondary px-3 py-2 bg-light text-body border-0">-</button>
+							<input type="text" class="btn counter btn-outline-secondary py-2 bg-light text-body border-0 cart-amount" data-id="123" value="1">
+							<button type="button" class="btn btn-increment btn-outline-secondary px-3 py-2 bg-light text-body border-0">+</button>
+							<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
+							<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer" style="height:24px;width:24px"></div></button>
+						</div>
 					</div>
 				</div>
-				<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-4">
-					<a href="/?page=product" class="text-decoration-none text-body">
-						<img src="assets/img/product_pipe.png">
-						<p class="fw-bold">APS - caurule DM 200, L 500</p>
-						<p><small>Produkta kods: ABC123456</small></p>
-						<h5 class="my-4 fw-bold">126.00 €</h5>
-					</a>
-					<div class="btn-group" role="group">
-						<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
-						<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer" style="height:24px;width:24px"></div></button>
+				<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-2">
+					<div class="p-2 border rounded">	
+						<a href="/?page=product" class="text-decoration-none text-body">
+							<img src="assets/img/product_pipe.png">
+							<p class="fw-bold">APS - caurule DM 200, L 500</p>
+							<p>
+								<small>Produkta kods: ABC123456</small><br />
+								<small class="fw-bold">Pieejamība: 0</small>
+							</p>
+							<h5 class="my-4 fw-bold">126.00 €</h5>
+						</a>
+						<div class="btn-group" role="group" style="width:100%;">
+							<button type="button text-secondary" class="btn btn-decrement btn-outline-secondary px-3 py-2 bg-light text-body border-0">-</button>
+							<input type="text" class="btn counter btn-outline-secondary py-2 bg-light text-body border-0 cart-amount" data-id="123" value="1">
+							<button type="button" class="btn btn-increment btn-outline-secondary px-3 py-2 bg-light text-body border-0">+</button>
+							<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
+							<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer" style="height:24px;width:24px"></div></button>
+						</div>
 					</div>
 				</div>
-				<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-4">
-					<a href="/?page=product" class="text-decoration-none text-body">
-						<img src="assets/img/product_pipe.png">
-						<p class="fw-bold">APS - caurule DM 200, L 500</p>
-						<p><small>Produkta kods: ABC123456</small></p>
-						<h5 class="my-4 fw-bold">126.00 €</h5>
-					</a>
-					<div class="btn-group" role="group">
-						<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
-						<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer" style="height:24px;width:24px"></div></button>
+				<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-2">
+					<div class="p-2 border rounded">
+						<a href="/?page=product" class="text-decoration-none text-body">
+							<img src="assets/img/product_pipe.png">
+							<p class="fw-bold">APS - caurule DM 200, L 500</p>
+							<p>
+								<small>Produkta kods: ABC123456</small><br />
+								<small class="fw-bold">Pieejamība: 0</small>
+							</p>
+							<h5 class="my-4 fw-bold">126.00 €</h5>
+						</a>
+						<div class="btn-group" role="group" style="width:100%;">
+							<button type="button text-secondary" class="btn btn-decrement btn-outline-secondary px-3 py-2 bg-light text-body border-0">-</button>
+							<input type="text" class="btn counter btn-outline-secondary py-2 bg-light text-body border-0 cart-amount" data-id="123" value="1">
+							<button type="button" class="btn btn-increment btn-outline-secondary px-3 py-2 bg-light text-body border-0">+</button>
+							<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
+							<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer" style="height:24px;width:24px"></div></button>
+						</div>
 					</div>
 				</div>
-				<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-4">
-					<a href="/?page=product" class="text-decoration-none text-body">
-						<img src="assets/img/product_pipe.png">
-						<p class="fw-bold">APS - caurule DM 200, L 500</p>
-						<p><small>Produkta kods: ABC123456</small></p>
-						<h5 class="my-4 fw-bold">126.00 €</h5>
-					</a>
-					<div class="btn-group" role="group">
-						<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
-						<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer desired" style="height:24px;width:24px"></div></button>
+				<div class="col-6 col-md-3 col-xs-6 itemGrid productItem p-2">
+					<div class="p-2 border rounded">	
+						<a href="/?page=product" class="text-decoration-none text-body">
+							<img src="assets/img/product_pipe.png">
+							<p class="fw-bold">APS - caurule DM 200, L 500</p>
+							<p>
+								<small>Produkta kods: ABC123456</small><br />
+								<small class="fw-bold">Pieejamība: 0</small>
+							</p>
+							<h5 class="my-4 fw-bold">126.00 €</h5>
+						</a>
+						<div class="btn-group" role="group" style="width:100%;">
+							<button type="button text-secondary" class="btn btn-decrement btn-outline-secondary px-3 py-2 bg-light text-body border-0">-</button>
+							<input type="text" class="btn counter btn-outline-secondary py-2 bg-light text-body border-0 cart-amount" data-id="123" value="1">
+							<button type="button" class="btn btn-increment btn-outline-secondary px-3 py-2 bg-light text-body border-0">+</button>
+							<button type="button" class="btn btn-primary addToCart"  data-productId="123" data-bs-toggle="modal" data-bs-target="#cartModal"><img src="assets/img/cart.svg" style="width: 24px;height: 24px"></button>
+							<button type="button" class="btn btn-light text-body toggleWishlist" data-productId="123"><div class="iconContainer desired" style="height:24px;width:24px"></div></button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -67,10 +99,10 @@
 							</g>
 						</g>
 					</svg>
-					<span class="fs-6 fw-bold">Filtri</span>
+					<span class="fs-6 fw-bold">Atlase</span>
 				</button>
 				<ul class="list-unstyled ps-0 collapse mt-2" id="toggleFilters">
-					<li class="mb-1">
+					<li class="mb-1">1
 						<button class="btn btn-toggle rounded collapsed text-start" data-bs-toggle="collapse" data-bs-target="#available-collapse">
 							Produkts pieejams
 						</button>

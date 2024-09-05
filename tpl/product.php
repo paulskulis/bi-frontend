@@ -7,7 +7,9 @@
 		</div>
 		<div class="col-md-6">
 			<h1>APS - caurule L-500</h1>
-			<span class="text-secondary fs-6">Preces kods: XXXX</span>
+			<span class="text-secondary fs-6">Preces kods: XXXX</span><br />
+			<span class="fs-6 fw-bold">Pieejamība:</span>
+			<span class="fw-bold">9</span>
 			<form class="my-4 pt-2">
 				<div class="row mt-4">
 					<label for="select1" class="col-md-3 col-form-label">Ø, mm:</label>
@@ -167,7 +169,7 @@
 				</tr>
 			</table>
 			<h5 class="fw-bold text-uppercase mb-4 mt-4">Video</h5>
-			<iframe width="100%" height="360" src="https://www.youtube.com/embed/aqz-KE-bpKQ" title="Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<iframe title="GRAUDU KODINĀTĀJS GRAIN-MIXER" src="https://www.youtube.com/embed/Nis3Y4WpG9I" width="100%" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 		</div>
 	</div>
 

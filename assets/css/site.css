@@ -61,7 +61,7 @@ img {
   display: inline;
 }
 #productNav {
-  font-weight: 500;
+  font-weight: 600;
 }
 .badge {
   z-index: 99;
@@ -186,11 +186,60 @@ button {
 .iconContainer.desired {
   background-image: url('/assets/img/heart.svg');
 }
-
+#mainNav {
+	border-bottom: solid 2px #FFF;
+}
+#mainNav a[href^="tel:"] {
+	color: var(--bs-red);
+}
+#categoryContainer div.itemGrid > div {
+	height: 100%;
+}
+#mmenu-toggle {
+	color: #000;
+	background-color: #FCD438;
+	border-color: #FCD438;
+}
 
 @media screen and (max-width: 768px) {
   #siteLogo, #siteLogo a, #siteLogo img {
     width: 75px;
     height: 63px;
   }
+}
+
+@media screen and (max-width: 640px) {
+	#footerContainer footer {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	#footerContainer footer div.col-md-3 {
+		padding: 0 !important;
+	}
+	#footerContainer footer div.col-md-3:first-child {
+		order: 1;
+	}
+	#footerContainer footer div.col-md-3:nth-child(2) {
+		order: 2;
+		width: 45%;
+	}
+
+	#footerContainer footer div.col-md-3:nth-child(3) {
+		order: 4;
+	}
+	#footerContainer footer div.col-md-3:nth-child(4) {
+		order: 3;
+		width: 45%
+	}
+	#footerContainer footer div.col-md-3:nth-child(4) img {
+		width: 15px;
+		margin-right: 5px;
+	}
+	#footerContainer footer div.col-md-3:nth-child(4) p span {
+		padding-left: 0 !important;
+	}
+	#contact-page-form div:first-child,
+	#contact-page-form div:nth-child(2) {
+		margin-bottom: 3rem;
+	}
 }
